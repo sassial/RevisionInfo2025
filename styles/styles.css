@@ -1,0 +1,94 @@
+input[type="password"] {
+    width: 360px;
+}
+
+input[type="text"] {
+    width: 360px;
+}
+
+label{
+    margin-right: 5px;
+}
+
+.empty-block{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+.form-container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: left;
+    width: 60%;
+    height: 280px;
+    padding: 10px;
+    border: 2px solid darkgray;
+}
+
+.line{
+    display: flex;
+    flex: row nowrap;
+    align-items: flex-end;
+}
+
+.nested-container{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
+    height: 100%;
+}
+
+.page-container{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.register-button{
+    align-self: center;
+}
+
+.register-button input[type="submit"] {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    border: none;
+    text-align: center;
+}
+
+.registration-form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: auto;
+    height: 100%;
+}
+
+#inscription-header{
+    align-self: flex-start;
+}
+
+#retour-lien{
+    align-self: flex-start;
+}
+
+#tooshort{
+    display: inline;
+    margin: 0;
+    color: red;
+}
