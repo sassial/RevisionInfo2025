@@ -116,7 +116,7 @@ INSERT INTO `utilisateur` (`id`, `nom`, `prenom`, `login`, `password`) VALUES
 (6, 'Dupond', 'Richard', 'WalterWhite', 'dd1a432d5aff5b1c4a8d45207d49e9fcfccff8c5'),
 (5, 'White', 'John', 'JohnSnow', 'a24836c226a625a4f2f7bbfeaeb283e4f227095e'),
 (7, 'Smith', 'Georges', 'DarylDixon', '4207665616570d86a8e50eb374dec4086747cc98'),
-(8, 'Martin', 'Lilas', 'Negan', '21ee35473f990e54c12651ff06eedb6906ed6ae5'),
+(8, 'Martin', 'Lilas', 'Negan', '21ee35473f990e54c12651ff06eedb6906ed6ae5');
 
 --
 -- Indexes for dumped tables
